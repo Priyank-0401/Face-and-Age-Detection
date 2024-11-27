@@ -38,11 +38,6 @@ cd gender-age-detection
 ```
 
 ### Install Dependencies:
-Install the necessary Python libraries using `pip`:
-```bash
-pip install -r requirements.txt
-```
-
 Make sure to have **OpenCV** installed:
 ```bash
 pip install opencv-python
