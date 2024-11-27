@@ -1,5 +1,5 @@
 
-# Gender and Age Detection Using Deep Learning
+# Gender and Age Detection
 
 ## Project Description
 
