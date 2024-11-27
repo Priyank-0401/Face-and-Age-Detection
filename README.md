@@ -69,22 +69,6 @@ This script will start capturing video from your webcam and will display the det
 - The face detection model will locate faces in the video feed.
 - The gender and age models will then predict the gender and approximate age of each face.
 
-## Folder Structure:
-```
-gender-age-detection/
-│
-├── models/
-│   ├── deploy.prototxt
-│   ├── res10_300x300_ssd_iter_140000_fp16.caffemodel
-│   ├── deploy_age.prototxt
-│   ├── age_net.caffemodel
-│   ├── deploy_gender.prototxt
-│   └── gender_net.caffemodel
-│
-├── gender_age_detection.py
-├── requirements.txt
-└── README.md
-```
 
 ## Dependencies:
 - Python 3.x
