@@ -74,7 +74,6 @@ This script will start capturing video from your webcam and will display the det
 - Python 3.x
 - OpenCV 4.x
 - Numpy
-- Other required libraries (listed in `requirements.txt`)
 
 ## Contributing:
 Feel free to fork the repository and make contributions. If you have any improvements or bug fixes, open an issue or pull request.
@@ -88,5 +87,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - TensorFlow, Keras, and PyTorch communities for research and implementations
 
 ## Contact:
-- GitHub: [yourgithubprofile](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [Priyank-0401](https://github.com/Priyank-0401)
