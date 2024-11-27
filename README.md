@@ -33,7 +33,7 @@ The system is simple to set up and run, providing a comprehensive solution for i
 ### Clone the Repository:
 To get started, clone this repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/gender-age-detection.git
+git clone https://github.com/Priyank-0401/gender-age-detection.git
 cd gender-age-detection
 ```
 
@@ -52,11 +52,6 @@ pip install opencv-python
 The following models are required:
 - **Face Detection model**: `deploy.prototxt` and `res10_300x300_ssd_iter_140000_fp16.caffemodel`
 - **Age and Gender Detection models**: `deploy_age.prototxt`, `age_net.caffemodel`, `deploy_gender.prototxt`, `gender_net.caffemodel`
-
-Download the models from the links provided in the repository or through the following:
-- [Face detection model](https://github.com/spmallick/learnopencv/raw/master/AgeGender/model/deploy.prototxt)
-- [Age detection model](https://github.com/spmallick/learnopencv/raw/master/AgeGender/model/age_net.caffemodel)
-- [Gender detection model](https://github.com/spmallick/learnopencv/raw/master/AgeGender/model/gender_net.caffemodel)
 
 Place these models in the `models/` directory of the project.
 
