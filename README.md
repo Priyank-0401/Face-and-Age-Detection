@@ -32,5 +32,5 @@ The system is simple to set up and run, providing a comprehensive solution for i
 ### Clone the Repository:
 To get started, clone this repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/gender-age-detection.git
+git clone https://github.com/Priyank-0401/gender-age-detection.git
 cd gender-age-detection
