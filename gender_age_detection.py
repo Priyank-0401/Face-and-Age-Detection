@@ -39,8 +39,19 @@ while True:
             box = detections[0, 0, i, 3:7] * np.array([frame.shape[1], frame.shape[0], frame.shape[1], frame.shape[0]])
             (startX, startY, endX, endY) = box.astype("int")
 
-            # Extract face
+            # Ensure bounding box is within the frame dimensions
+            startX, startY = max(0, startX), max(0, startY)
+            endX, endY = min(frame.shape[1], endX), min(frame.shape[0], endY)
+
+            # Extract face region
             face = frame[startY:endY, startX:endX]
+
+            # Check if face is empty
+            if face.size == 0:
+                print("Detected face region is empty, skipping...")
+                continue
+
+            # Prepare the face blob for prediction
             blob = cv2.dnn.blobFromImage(face, 1.0, (227, 227), MODEL_MEAN_VALUES, swapRB=False)
 
             # Predict gender
